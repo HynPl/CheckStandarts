@@ -1,7 +1,26 @@
 # CheckStandarts
 ## Popis
+- plug-in do [Autodesk Revitu 2023](https://www.autodesk.cz/products/revit/) který ověří geometrii, zda odpovídá normám, vyhláškám, doporučením.
 
-## Součásti k chodu
+## Podrobný popis, co zatím umí ověřit
+### Schodiště
+- Délku kroku dle Lehmanova vzorce
+- Výšku schodu
+- Hloubku/šířku schodu
+-
+  
+### Rameno schodiště
+- Počet schodů v rameni
+- Šířku schodišťového ramene
+
+## Požadavky k chodu
 - Window 10 64 bit
 - .NET Framework 4.8
 - Autodesk Revit 2023
+
+## Naprogramováno v
+- Visual Studio 2022
+### Součásti
+- .NET Framework 4.8
+- Autodesk Revit 2023 - Reference RevitAPI.dll + RevitAPIUI.dll
+- Nuget (CarlosAgExcelXmlWriterLibrary)[http://www.carlosag.net/tools/excelxmlwriter/]
