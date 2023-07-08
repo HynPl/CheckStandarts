@@ -6,7 +6,7 @@ Výše uvedené oznámení o autorských právech a toto oznámení o povolení 
 
 SOFTWARE JE POSKYTOVÁN "TAK, JAK JE", BEZ JAKÝCHKOLI ZÁRUK, VÝSLOVNÝCH NEBO PŘEDPOKLÁDANÝCH, VČETNĚ, ALE NIKOLI VÝHRADNĚ, ZÁRUK PRODEJNOSTI, VHODNOSTI PRO URČITÝ ÚČEL A NEPORUŠOVÁNÍ PRÁV. AUTOŘI ANI DRŽITELÉ AUTORSKÝCH PRÁV V ŽÁDNÉM PŘÍPADĚ NENESOU ODPOVĚDNOST ZA JAKÉKOLI NÁROKY, ŠKODY NEBO JINOU ODPOVĚDNOST, AŤ UŽ SMLUVNÍ, DELIKTNÍ NEBO JINOU, VYPLÝVAJÍCÍ ZE SOFTWARU, Z NĚJ NEBO V SOUVISLOSTI S NÍM NEBO S JEHO POUŽÍVÁNÍM ČI JINÝM NAKLÁDÁNÍM S NÍM.
 
-# In English language
+## In English language
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
