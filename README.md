@@ -7,7 +7,7 @@
 - Délku kroku dle Lehmanova vzorce
 - Výšku schodu
 - Hloubku/šířku schodu
--
+- Sklon schodiště
   
 ### Rameno schodiště
 - Počet schodů v rameni
