@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Application">
+    <Name>Check Standarts</Name>
+    <Assembly>C:\ProgramData\Autodesk\Revit\Addins\2023\CheckStandarts\CheckStandarts.dll</Assembly>
+    <AddInId>502fe383-2648-4e98-adf8-5e6047f9dc34</AddInId>
+    <FullClassName>CheckStandarts.App</FullClassName>
+    <VendorId>Check Standarts</VendorId>
+    <Description>Check your project</Description>
+    <VendorDescription>HynPl, github.com/HynPl</VendorDescription>
+    <Publisher>HynPl</Publisher>
+  </AddIn>
+</RevitAddIns>
