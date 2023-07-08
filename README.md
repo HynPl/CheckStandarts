@@ -22,7 +22,7 @@
 - Autodesk Revit 2023
 
 ## V případě oběvení chyby
-- Prosím podívejte se zda již neexistuje [problematika](https://github.com/HynPl/CheckStandarts/issues), případě založte [nové](https://github.com/HynPl/CheckStandarts/issues/new)
+- Prosím podívejte se zda již neexistuje existující [problematika](https://github.com/HynPl/CheckStandarts/issues), případě že není, založte [nové](https://github.com/HynPl/CheckStandarts/issues/new)
 
 ## Autorská práva
 - Zdarma, volně šiřitelné
