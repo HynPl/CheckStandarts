@@ -1,37 +1,37 @@
 # CheckStandarts
 [![en](https://img.shields.io/badge/lang-cs-red.svg)](README.md)
-## Popis
-- Jedná se o plug-in do [Autodesk Revitu 2023](https://www.autodesk.cz/products/revit/), který ověří geometrii projektu, zda odpovídá normám, vyhláškám, doporučením.
+## Comment
+- This is plug-in for [Autodesk Revit 2023](https://www.autodesk.cz/products/revit/), whith check geometry of the project if it's OK with standards; laws; regulations in Czech Republic
 
-## Stažení a instalace
-- Plug-in v tuto dobu není kompletní
+## Download and install
+- Plug-in is not finished
 
-## Podrobný popis, co zatím umí ověřit
-### Schodiště
-- Délku kroku dle Lehmanova vzorce
-- Výšku schodu
-- Šířka stupně
-- Sklon schodiště
+## Detailed iformations
+### Stairs
+- Length of step see Lehman formula
+- Height of the stair
+- Depth of the stair
+- Angle of the stairs
   
-### Rameno schodiště
-- Počet schodů v rameni
-- Šířku schodišťového ramene
+### Runs
+- Number of stairs in the run
+- Width of the run
 
-## Požadavky k chodu
+## Requirements
 - Window 10 64 bit
 - .NET Framework 4.8
 - Autodesk Revit 2023
 
-## V případě oběvení chyby
-- Prosím podívejte se zda již neexistuje existující [problematika](https://github.com/HynPl/CheckStandarts/issues), případě že není, založte [nové](https://github.com/HynPl/CheckStandarts/issues/new)
+## If I run into error
+- Look [there](https://github.com/HynPl/CheckStandarts/issues), if it some existing promlem, if thre is not create [new](https://github.com/HynPl/CheckStandarts/issues/new) one
 
-## Autorská práva
-- Zdarma, volně šiřitelné
-- Odkaz na podrobné [znění](https://github.com/HynPl/CheckStandarts/blob/main/LICENSE.md)
+## License
+- Free
+- More [info](https://github.com/HynPl/CheckStandarts/blob/main/LICENSE.md)
 
-## Naprogramováno v
+## Made in
 - Visual Studio 2022
-### Reference
+### References
 - .NET Framework 4.8
-- Autodesk Revit 2023 - Reference RevitAPI.dll + RevitAPIUI.dll
-- Nuget [CarlosAgExcelXmlWriterLibrary](http://www.carlosag.net/tools/excelxmlwriter/) k exporu do Excelu
+- Autodesk Revit 2023 - References RevitAPI.dll + RevitAPIUI.dll
+- Nuget [CarlosAgExcelXmlWriterLibrary](http://www.carlosag.net/tools/excelxmlwriter/) for export into Microsoft Excel
