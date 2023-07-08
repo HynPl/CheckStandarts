@@ -1,4 +1,4 @@
-# Copyright (c) 2023
+# Copyright © 2023
 
 Tímto se uděluje bezplatné povolení každé osobě, která získá kopii tohoto softwaru a souvisejících souborů dokumentace (dále jen "software"), nakládat se softwarem bez omezení, včetně, ale bez omezení, práva používat, kopírovat, upravovat, slučovat, publikovat, distribuovat, poskytovat sublicence a/nebo prodávat kopie softwaru, a povolit osobám, kterým je software poskytnut, aby tak činily za následujících podmínek:
 
