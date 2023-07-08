@@ -2,6 +2,9 @@
 ## Popis
 - Jedná se o plug-in do [Autodesk Revitu 2023](https://www.autodesk.cz/products/revit/), který ověří geometrii projektu, zda odpovídá normám, vyhláškám, doporučením.
 
+## Stažení a instalace
+- Plug-in v tuto dobu není kompletní
+
 ## Podrobný popis, co zatím umí ověřit
 ### Schodiště
 - Délku kroku dle Lehmanova vzorce
