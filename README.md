@@ -6,7 +6,7 @@
 ### Schodiště
 - Délku kroku dle Lehmanova vzorce
 - Výšku schodu
-- Hloubku/šířku schodu
+- Šířka stupně
 - Sklon schodiště
   
 ### Rameno schodiště
