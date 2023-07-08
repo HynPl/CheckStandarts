@@ -18,6 +18,9 @@
 - .NET Framework 4.8
 - Autodesk Revit 2023
 
+## V případě oběvení chyby
+- Prosím podívejte se zda již neexistuje [problematika](https://github.com/HynPl/CheckStandarts/issues), případě založte [nové](https://github.com/HynPl/CheckStandarts/issues/new)
+
 ## Autorská práva
 - Zdarma, volně šiřitelné
 - Odkaz na podrobné [znění](https://github.com/HynPl/CheckStandarts/blob/main/LICENSE.md)
