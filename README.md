@@ -20,7 +20,7 @@
 
 ## Autorská práva
 - Program je zdarma
-- Odkaz na podrobné [znění](https://github.com/HynPl/CheckStandarts/blob/main/LICENSE.md))
+- Odkaz na podrobné [znění](https://github.com/HynPl/CheckStandarts/blob/main/LICENSE.md)
 
 ## Naprogramováno v
 - Visual Studio 2022
