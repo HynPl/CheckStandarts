@@ -1,6 +1,6 @@
 # CheckStandarts
 ## Popis
-- Jedná se o plug-in do [Autodesk Revitu 2023](https://www.autodesk.cz/products/revit/), který ověří geometrii, zda odpovídá normám, vyhláškám, doporučením.
+- Jedná se o plug-in do [Autodesk Revitu 2023](https://www.autodesk.cz/products/revit/), který ověří geometrii projektu, zda odpovídá normám, vyhláškám, doporučením.
 
 ## Podrobný popis, co zatím umí ověřit
 ### Schodiště
