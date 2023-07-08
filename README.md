@@ -1,7 +1,6 @@
 # CheckStandarts
 ## Popis
 - Jedná se o plug-in do [Autodesk Revitu 2023](https://www.autodesk.cz/products/revit/), který ověří geometrii, zda odpovídá normám, vyhláškám, doporučením.
-- [Autorská práva](https://github.com/HynPl/CheckStandarts/blob/main/LICENSE.md)
 
 ## Podrobný popis, co zatím umí ověřit
 ### Schodiště
@@ -19,6 +18,9 @@
 - .NET Framework 4.8
 - Autodesk Revit 2023
 
+## Autorská práva
+- Program je zdarma
+- Odkaz na podrobné [znění](https://github.com/HynPl/CheckStandarts/blob/main/LICENSE.md))
 
 ## Naprogramováno v
 - Visual Studio 2022
