@@ -19,7 +19,7 @@
 - Autodesk Revit 2023
 
 ## Autorská práva
-- Program je zdarma
+- Zdarma, volně šiřitelné
 - Odkaz na podrobné [znění](https://github.com/HynPl/CheckStandarts/blob/main/LICENSE.md)
 
 ## Naprogramováno v
