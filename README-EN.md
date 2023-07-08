@@ -1,5 +1,5 @@
 # CheckStandarts
-[![en](https://img.shields.io/badge/lang-cs-red.svg)](README-CS.md)
+[![en](https://img.shields.io/badge/lang-cs-red.svg)](README.md)
 ## Popis
 - Jedná se o plug-in do [Autodesk Revitu 2023](https://www.autodesk.cz/products/revit/), který ověří geometrii projektu, zda odpovídá normám, vyhláškám, doporučením.
 
