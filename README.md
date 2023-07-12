@@ -5,7 +5,7 @@
 
 ## Stažení a instalace
 - Plug-in v tuto dobu není kompletní
-- Vyextrahovat soubor do složky * C:\ProgramData\Autodesk\Revit\Addins\2023\ *
+- Vyextrahovat soubor do složky _C:\ProgramData\Autodesk\Revit\Addins\2023\_
 
 ## Podrobný popis, co zatím umí ověřit
 ### Schodiště
@@ -29,7 +29,7 @@
 ## Autorská práva
 - Zdarma, volně šiřitelné
 - Odkaz na podrobné [znění](https://github.com/HynPl/CheckStandarts/blob/main/LICENSE.md)
--
+- Podpůrné součásti: PicoXLSX (Uložení souboru Excelu), Raphael Stoeckli, MIT Licence
 
 ## Naprogramováno v
 - Visual Studio 2022
