@@ -5,7 +5,7 @@
 
 ## Stažení a instalace
 - Plug-in v tuto dobu není kompletní
-- Vyextrahovat soubor do složky _C:\ProgramData\Autodesk\Revit\Addins\2023\_
+- Vyextrahovat soubor do složky C:\ProgramData\Autodesk\Revit\Addins\2023\
 
 ## Podrobný popis, co zatím umí ověřit
 ### Schodiště
