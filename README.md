@@ -5,6 +5,7 @@
 
 ## Stažení a instalace
 - Plug-in v tuto dobu není kompletní
+- Vyextrahovat soubor do složky *C:\ProgramData\Autodesk\Revit\Addins\2023\*
 
 ## Podrobný popis, co zatím umí ověřit
 ### Schodiště
@@ -28,10 +29,10 @@
 ## Autorská práva
 - Zdarma, volně šiřitelné
 - Odkaz na podrobné [znění](https://github.com/HynPl/CheckStandarts/blob/main/LICENSE.md)
+-
 
 ## Naprogramováno v
 - Visual Studio 2022
 ### Reference
 - .NET Framework 4.8
 - Autodesk Revit 2023 - Reference RevitAPI.dll + RevitAPIUI.dll
-- Nuget [CarlosAgExcelXmlWriterLibrary](http://www.carlosag.net/tools/excelxmlwriter/) k exporu do Excelu
