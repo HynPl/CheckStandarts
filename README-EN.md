@@ -28,10 +28,10 @@
 ## License
 - Free
 - More [info](https://github.com/HynPl/CheckStandarts/blob/main/LICENSE.md)
+- PicoExcel
 
 ## Made in
 - Visual Studio 2022
 ### References
 - .NET Framework 4.8
 - Autodesk Revit 2023 - References RevitAPI.dll + RevitAPIUI.dll
-- Nuget [CarlosAgExcelXmlWriterLibrary](http://www.carlosag.net/tools/excelxmlwriter/) for export into Microsoft Excel
