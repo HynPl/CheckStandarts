@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E5107B8B-E35C-4CB4-8EBB-883BB01510CB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CheckStandarts</RootNamespace>
+    <AssemblyName>CheckStandarts</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\..\..\..\ProgramData\Autodesk\Revit\Addins\2023\CheckStandarts\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="RevitAPI">
+      <HintPath>..\..\..\..\..\Program Files\Autodesk\Revit 2023\RevitAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="RevitAPIUI">
+      <HintPath>..\..\..\..\..\Program Files\Autodesk\Revit 2023\RevitAPIUI.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.IO.Compression.FileSystem" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Enviroment\Enums\Bezbarier.cs" />
+    <Compile Include="Enviroment\Enums\BuildingLocation.cs" />
+    <Compile Include="BuildUI.cs" />
+    <Compile Include="ClassUnitHelper.cs" />
+    <Compile Include="Command.cs" />
+    <Compile Include="Controls\Components\GBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Components\GLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Components\GButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Components\GCheckState.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Components\GCollapse.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Components\GComboBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Components\GComboBox.designer.cs">
+      <DependentUpon>GComboBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Help\Constants.cs" />
+    <Compile Include="Controls\Help\NativeMethods.cs" />
+    <Compile Include="Controls\PreComponents\GPreComboBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Checking\ElementCheck.cs" />
+    <Compile Include="Checking\ElementsCheckData.cs" />
+    <Compile Include="Enviroment\Enums\CheckState.cs" />
+    <Compile Include="Enviroment\Enums\TypeBuilding.cs" />
+    <Compile Include="UI Forms\FormApp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI Forms\FormApp.Designer.cs">
+      <DependentUpon>FormApp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI Forms\FormMessage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI Forms\FormMessage.Designer.cs">
+      <DependentUpon>FormMessage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI Forms\FormSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI Forms\FormSettings.Designer.cs">
+      <DependentUpon>FormSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Enviroment\Lang.cs" />
+    <Compile Include="PicoXLSX\Cell.cs" />
+    <Compile Include="PicoXLSX\Exceptions.cs" />
+    <Compile Include="PicoXLSX\LowLevel.cs" />
+    <Compile Include="PicoXLSX\Metadata.cs" />
+    <Compile Include="PicoXLSX\Style.cs" />
+    <Compile Include="PicoXLSX\StyleManager.cs" />
+    <Compile Include="PicoXLSX\StyleRepository.cs" />
+    <Compile Include="PicoXLSX\Workbook.cs" />
+    <Compile Include="PicoXLSX\Worksheet.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="ReadMe.cs" />
+    <Compile Include="Enviroment\Setting.cs" />
+    <Compile Include="Controls\UcGeneralPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\UcGeneralPanel.Designer.cs">
+      <DependentUpon>UcGeneralPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Checking\WarlingUserControl.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="RevitStairsCheck.addin" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Controls\Components\GComboBox.resx">
+      <DependentUpon>GComboBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI Forms\FormApp.resx">
+      <DependentUpon>FormApp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI Forms\FormMessage.resx">
+      <DependentUpon>FormMessage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI Forms\FormSettings.resx">
+      <DependentUpon>FormSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\UcGeneralPanel.resx">
+      <DependentUpon>UcGeneralPanel.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\app_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wrong.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Warning.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BigRefresh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Done.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\excel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Help.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Setting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Stairs.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="app.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>copy "C:\Users\GeftGames\Desktop\CheckStandarts\CheckStandarts\RevitStairsCheck.addin" "C:\ProgramData\Autodesk\Revit\Addins\2023\RevitStairsCheck.addin"</PostBuildEvent>
+  </PropertyGroup>
+</Project>
