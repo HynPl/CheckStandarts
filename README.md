@@ -4,7 +4,6 @@
 - Jedná se o plug-in do [Autodesk Revitu 2023](https://www.autodesk.cz/products/revit/), který ověří geometrii projektu, zda odpovídá normám, vyhláškám, doporučením v České republice.
 
 ## Stažení a instalace
-- Plug-in v tuto dobu není kompletní
 - Vyextrahovat soubor do složky C:\ProgramData\Autodesk\Revit\Addins\2023\
 
 ## Podrobný popis, co zatím umí ověřit
