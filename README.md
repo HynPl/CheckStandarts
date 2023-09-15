@@ -1,5 +1,5 @@
 # CheckStandarts
-![screenshot](https://raw.githubusercontent.com/HynPl/CheckStandarts/main/screenshot.png)
+![screenshot](https://github.com/HynPl/CheckStandarts/blob/main/screenshot.png?raw=true)
 [![en](https://img.shields.io/badge/lang-en-red.svg)](README-EN.md)
 ## Popis
 - Jedná se o plug-in do [Autodesk Revitu 2023](https://www.autodesk.cz/products/revit/), který ověří geometrii projektu, zda odpovídá normám, vyhláškám, doporučením v České republice.
